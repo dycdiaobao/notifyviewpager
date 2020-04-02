@@ -22,14 +22,7 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentStatePagerAdapter;
 import androidx.fragment.app.FragmentTransaction;
 
-/**
- * 加载显示Fragment的ViewPagerAdapter基类
- * 提供可以刷新的方法
- *
- * @author Fly
- * @e-mail 1285760616@qq.com
- * @time 2018/3/22
- */
+
 public class BaseFragmentPagerAdapter extends FragmentStatePagerAdapter {
     private List<BaseFragment> mFragmentList;
     private FragmentManager mFragmentManager;
